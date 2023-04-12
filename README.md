@@ -1,1 +1,4 @@
 ReactのプロジェクトからFirebaseに認証するだけのプロジェクト
+  Firebase SDKはV9を使用
+step1:Google認証をサポート
+step2:メールアドレス認証をサポート

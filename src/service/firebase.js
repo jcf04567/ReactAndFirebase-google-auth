@@ -14,9 +14,13 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 };
 
+// Firebaseの情報取得
 const app = initializeApp(firebaseConfig);
+// Firebaseの認証情報取得
 const auth = getAuth(app);
+// firestore(データーベース)の情報取得
 const db = getFirestore(app);
+// Google認証情報取得
 const googleProvider = new GoogleAuthProvider();
 
 

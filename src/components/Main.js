@@ -7,6 +7,7 @@ function Main() {
   const [user, loading, error] = useAuthState(auth);
 
   const signIn = () => {
+    // Google認証状態の取得
     signInWithPopup(auth, googleProvider).catch((err) => alert(err.message));
   };
 
